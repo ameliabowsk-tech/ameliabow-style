@@ -15,3 +15,233 @@ input:focus,textarea:focus,select:focus{border-color:#ead1d9!important;outline:n
 /* vypnutie global focus */
 *:focus,*:focus-visible{outline:none!important;box-shadow:none!important}
 input:focus,textarea:focus,select:focus{outline:none!important;box-shadow:0 0 0 3px rgba(229,191,197,.5)!important;border-color:#ead1d9!important}
+
+.navigation-buttons > a[data-target="search"]::before {
+  content: "";
+  display: inline-block;
+  width: 23px;
+  height: 23px;
+  background: url("https://743737.myshoptet.com/user/documents/upload/searchnove.svg") no-repeat center center;
+  background-size: contain;
+}
+
+.top-nav-button-login::before {
+  content: "";
+  display: inline-block;
+  width: 22px;
+  height: 22px;
+  background: url("https://743737.myshoptet.com/user/documents/upload/usernove.svg") no-repeat center center;
+  background-size: contain;
+  vertical-align: middle;
+  position: relative;
+  top: -1px;
+}
+
+.navigation-buttons > a[data-target="cart"]::before {
+  content: "";
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  background: url("https://743737.myshoptet.com/user/documents/upload/totenove.svg") no-repeat center center;
+  background-size: contain;
+}
+
+.navigation-buttons > a[data-target="search"],
+.navigation-buttons > a[data-target="cart"],
+.top-nav-button-login {
+  font-size: 0 !important;
+}
+
+.navigation-buttons > a {
+  color: #4e4e4e !important;
+}
+
+.navigation-buttons > a::before {
+  filter: invert(32%) sepia(0%) saturate(0%) hue-rotate(159deg) brightness(92%) contrast(92%) !important;
+}
+
+.top-nav-button-login::before {
+  filter: invert(32%) sepia(0%) saturate(0%) hue-rotate(159deg) brightness(92%) contrast(92%) !important;
+  vertical-align: middle;
+  position: relative;
+  top: -2px;
+}
+
+.navigation-buttons > a[data-target="search"]::before,
+.navigation-buttons > a[data-target="cart"]::before,
+.navigation-buttons > a[data-target="navigation"]::before,
+.top-nav-button-login::before {
+  opacity: 1 !important;
+}
+
+.cart-widget-product-amount .quantity {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 1px 22px;
+  border: 1px solid #dcdcdc;
+  border-radius: 10px;
+  background: #fff;
+  font-size: 14px;
+  font-weight: 400;
+  color: #4a4a4a;
+}
+
+.cart-widget-product-amount .quantity input,
+.cart-widget-product-amount .quantity span:not(.increase):not(.decrease) {
+  background: transparent !important;
+  border: none !important;
+  box-shadow: none !important;
+  min-width: 22px;
+  text-align: center;
+  color: #4a4a4a;
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.cart-widget-product-amount .quantity .increase,
+.cart-widget-product-amount .quantity .decrease {
+  background: transparent !important;
+  border: none !important;
+  box-shadow: none !important;
+  padding: 0 4px;
+  margin: 0;
+  font-size: 15px;
+  line-height: 1;
+  color: #4a4a4a;
+  cursor: pointer;
+  font-weight: 400;
+}
+
+.cart-widget-product-amount .quantity .increase:hover,
+.cart-widget-product-amount .quantity .decrease:hover {
+  color: #000;
+}
+
+.cart-widget-product-amount .quantity .increase:active,
+.cart-widget-product-amount .quantity .decrease:active {
+  transform: scale(1.2);
+  transition: transform 0.08s;
+}
+
+.cart-widget-product-amount .quantity .increase::before,
+.cart-widget-product-amount .quantity .decrease::before {
+  position: static !important;
+  display: inline-block !important;
+  width: auto !important;
+  height: auto !important;
+  line-height: 1.1 !important;
+  left: auto !important;
+  top: auto !important;
+  font-family: inherit !important;
+  font-weight: 400 !important;
+  font-size: 16px !important;
+}
+
+.cart-widget-product-amount .quantity .increase::before {
+  content: "+" !important;
+}
+
+.cart-widget-product-amount .quantity .decrease::before {
+  content: "−" !important;
+}
+
+.eapps-instagram-feed-posts-grid-load-more {
+  border-radius: 8px !important;
+}
+
+#header .header-title {
+  font-size: 0 !important;
+  line-height: 0 !important;
+  color: transparent !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 220px;
+  margin: 0;
+  padding: 35px 0 0;
+}
+
+#header .header-title::after {
+  content: "";
+  display: block;
+  width: 700px;
+  height: 160px;
+  background: url("https://743737.myshoptet.com/user/documents/upload/AB%20hlavicka.2.png") center center / contain no-repeat;
+}
+
+@media (max-width: 768px) {
+  #header .header-title {
+    height: 130px;
+    padding-top: 18px;
+  }
+
+  #header .header-title::after {
+    width: 300px;
+    height: 80px;
+  }
+}
+
+#continue-order-button.btn.btn-conversion {
+  border-radius: 10px !important;
+}
+
+.btn,
+button,
+input[type="submit"],
+input[type="button"],
+a.btn,
+.btn.btn-primary,
+.btn.btn-secondary,
+.btn.btn-conversion,
+button.btn.btn-conversion.add-to-cart-button,
+#continue-order-button,
+.cart-widget .btn,
+.cart-widget button,
+.p-detail .add-to-cart .btn,
+.p-detail .add-to-cart button[type="submit"],
+.p-detail .add-to-cart .btn-conversion,
+.navigation-in .btn,
+.navigation-in a.btn,
+.user-action .btn,
+.user-action a.btn {
+  border-radius: 10px !important;
+}
+
+.quantity {
+  display: inline-flex !important;
+  align-items: center !important;
+  border: 1px solid #dcdcdc !important;
+  border-radius: 10px !important;
+  overflow: hidden !important;
+  background: #fff !important;
+}
+
+.quantity .decrease,
+.quantity .increase {
+  width: 32px !important;
+  height: 32px !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  background: transparent !important;
+  border: none !important;
+  font-size: 16px !important;
+  color: #4a4a4a !important;
+  cursor: pointer !important;
+}
+
+.quantity .decrease:hover,
+.quantity .increase:hover {
+  background: #f5f5f5 !important;
+}
+
+.quantity input.amount {
+  width: 40px !important;
+  height: 32px !important;
+  border: none !important;
+  text-align: center !important;
+  font-size: 14px !important;
+  background: transparent !important;
+}
