@@ -245,3 +245,43 @@ button.btn.btn-conversion.add-to-cart-button,
   font-size: 14px !important;
   background: transparent !important;
 }
+.siteCookies.siteCookies--dark {
+  background: #f7f1f4 !important;
+  color: #393939 !important;
+}
+
+.siteCookies.siteCookies--dark .siteCookies__form {
+  background: #f7f1f4 !important;
+}
+
+.siteCookies.siteCookies--dark p,
+.siteCookies.siteCookies--dark a {
+  color: #393939 !important;
+}
+
+.siteCookies.siteCookies--dark .siteCookies__button,
+.siteCookies.siteCookies--dark button {
+  border-radius: 10px !important;
+}
+
+.siteCookies.siteCookies--dark .siteCookies__button.js-cookiesConsentSubmit {
+  background: #393939 !important;
+  color: #fff !important;
+  border: none !important;
+}
+
+.siteCookies.siteCookies--dark .siteCookies__button.js-cookiesConsentSubmit:hover {
+  background: #8f7f7f !important;
+}
+
+.siteCookies.siteCookies--dark .siteCookies__link {
+  background: #fff !important;
+  color: #393939 !important;
+  border: 1px solid #393939 !important;
+}
+
+.siteCookies.siteCookies--dark .siteCookies__link:hover {
+  background: #f7f1f4 !important;
+  color: #8f7f7f !important;
+  border-color: #8f7f7f !important;
+}
